@@ -1,7 +1,7 @@
-heWiki Replace bot is a python script for site wide replacements in Hebrew Wikipedia.
+urWiki Replace bot is a python script for site wide replacements in Urdu Wikipedia.
 
 See:
-https://he.wikipedia.org/wiki/ויקיפדיה:בוט/בוט_החלפות
+https://ur.m.wikipedia.org/wiki/ویکیپیڈیا:متداول_املائی_غلطیوں_کی_فہرستیں/برائے_خودکار_درستی
 
 The script is based on pywikibot core.
 
@@ -16,7 +16,7 @@ Install
 
 Use
 =======
-python hewikiReplacebot -xml:DUMPNAME
+python pwb.py imla -xml:DUMPNAME
 
 License
 =======
