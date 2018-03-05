@@ -11,7 +11,7 @@ Install
    see: Manual:Pywikibot/Installation
    important: be sure core and scripts directory in pywikibot are in your PYTHONPATH
 * Download the latest database dump:
-   http://dumps.wikimedia.org/hewiki/
+   http://dumps.wikimedia.org/urwiki/
    ( hewiki-YYYYMMDD-pages-articles.xml )
 
 Use
