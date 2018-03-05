@@ -182,11 +182,11 @@ def check_titles(site, report_page_name, replacements):
     exception_report = ''
     for replace_key, replaced_titles in exceptions_dict.items():
         exception_report += '\n* %i\n%s' % (replace_key, '\n'.join(['** [[%s]]' % t for t in replaced_titles]))
-    report_page.put(exception_report, summary='עדכון')
+    report_page.put(exception_report, summary='تجدید')
 
 
 def main(*args):
-    pywikibot.output('Starting hewiki-replacebot')
+    pywikibot.output('Starting replacebot')
     editSummary = replaceConfig.defaultSummary
     xmlFilename = None
     xmlStart = None
@@ -216,7 +216,7 @@ def main(*args):
 
     safe_templates = replaceConfig.safeTemplates
     # add external links templates
-    site = pywikibot.Site()
+    site = pywikibot.Site('ur')
     for safeCategory in replaceConfig.safeTemplatesCategories:
         cite_templates = pywikibot.Category(site, safeCategory).articles(namespaces=10, recurse=True)
         cite_templates = [page.title(withNamespace=False) for page in cite_templates]
