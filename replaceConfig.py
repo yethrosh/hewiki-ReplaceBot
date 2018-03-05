@@ -13,12 +13,12 @@ Configuration file for hewikiReplaceBot
 -namespaces                 List of namespace the bot is allowed to work on
 -whitelist_editors          List of editors allowed to edit the replacementsPage
 """
-replacementsPage = 'ויקיפדיה:בוט/בוט החלפות/רשימת החלפות נוכחית'
-defaultSummary = '[[וק:הח|בוט החלפות]]: '
+replacementsPage = 'ویکیپیڈیا:متداول املائی غلطیوں کی فہرستیں/برائے خودکار درستی'
+defaultSummary = 'خودکار: [[وپ:خودکار درستی|خودکار درستی املا]] ← '
 safeTemplates = ['ציטוט', 'ציטוטון', 'חלונית', 'מסגרת', 'הדגשה', 'קמץ קטן']
 safeTemplatesCategories = ['תבניות קישורים חיצוניים', 'תבניות ציטוט']
 nobotRgx = "\{\{ללא בוט\|([0-9]+)\}\}"
-fileUsageRgx = '\[\[:?(File|Image|תמונה|קובץ)\s*:\s*.*?[\|\]]'
+fileUsageRgx = '\[\[:?(File|Image|تصویر|ملف|فائل)\s*:\s*.*?[\|\]]'
 redirectRgx = '#\s*(הפניה|REDIRECT)\s*\[\['
-namespaces = [0, 10, 14, 100]
-whitelist_editors = ['ערן', 'Matanya', 'Kotz', 'קיפודנחש', 'Tomer T']
+namespaces = [0, 4, 12, 14, 100, 118]
+whitelist_editors = ['محمد شعیب']
